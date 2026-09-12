@@ -1,5 +1,6 @@
 /* AUREX Internship - CSS
    Name: Shamsa Bukhari
+week-2
 */
 
 * {
@@ -15,7 +16,7 @@ body {
     line-height: 1.6;
 }
 
-/* Main Headings */
+
 h1 {
     color: #243447;
     text-align: center;
@@ -33,12 +34,12 @@ h3 {
     color: #34495e;
 }
 
-/* About Section */
+
 p {
     font-size: 16px;
 }
 
-/* Skills */
+
 ul {
     padding-left: 25px;
 }
@@ -51,7 +52,7 @@ li:hover {
     color: #3498db;
 }
 
-/* Education Table */
+
 table {
     width: 100%;
     border-collapse: collapse;
