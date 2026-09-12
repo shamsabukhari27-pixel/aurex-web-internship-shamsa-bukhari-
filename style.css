@@ -1,0 +1,161 @@
+/* AUREX Internship - CSS
+   Name: Shamsa Bukhari
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px 8%;
+    font-family: Arial, sans-serif;
+    background-color: #c8dff7;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Main Headings */
+h1 {
+    color: #243447;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 6px;
+    margin-top: 30px;
+}
+
+h3 {
+    color: #34495e;
+}
+
+/* About Section */
+p {
+    font-size: 16px;
+}
+
+/* Skills */
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin: 7px 0;
+}
+
+li:hover {
+    color: #3498db;
+}
+
+/* Education Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: white;
+}
+
+th,
+td {
+    border: 1px solid #bbb;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #34495e;
+    color: white;
+}
+
+tr:hover {
+    background-color: #eef6fb;
+}
+
+/* Contact Form */
+form {
+    background-color: white;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+    max-width: 600px;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #217dbb;
+}
+
+/* GitHub Link */
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 35px;
+    padding: 15px;
+    border-top: 1px solid #ccc;
+    color: #666;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+
+    body {
+        padding: 20px;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+    }
+
+    label {
+        display: block;
+        width: 100%;
+    }
+
+    table {
+        font-size: 13px;
+    }
+}
